@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Headline News</title>
+    <link rel="stylesheet" href="SD.css" />
+    <link rel="stylesheet" href="video_fullscreen_squish.css" />
+    <script src="SD.js"></script>
+    <script type="text/javascript"></script>
+	<style> 
+		
+		
+	</style>
+</head>
+
+<body>
+	<!--How long each news story will stay on screen (including animation in/out)-->
+	<input type="hidden" id="news_image_duration" value="10">
+    <!--Set a custom duration for the intro video (will clip the end if video is longer than time allotted)
+    	Or a duration will be automatically set based on the length of the video.-->
+    <input type="hidden" id="custom_intro_duration" value="4">
+    <input type="hidden" id="newsType" value="PicNews">
+    <!--<input type="hidden" id="filePath" value=""><!--https://retail.adrenalineshot.com/rss/Xnews/news/1920/-->
+    
+    
+	<div class="fullscreen-bg">
+        <video width="1920" height="1080" autoplay muted class="fullscreen-bg__video" id="intro">
+            <source src="Video/TrustmarkNews_Intro.webm" type="video/webm" />
+        </video>
+	</div>
+ 	<div class="news_container">
+        <!--<div id="bottomBar"></div>-->
+        <div id="headline_group_BG"></div>
+        <div id="" class="headline_group">
+            <div class="headline" id="hl1"></div>
+        </div>
+        <div id="" class="headline_group">
+            <div class="headline" id="hl2"></div>
+        </div>
+        <div id="" class="headline_group">
+            <div class="headline" id="hl3"></div>
+        </div>
+        <div id="images">
+            <!--options are topNews, celebNews, comboNews, financeNews-->
+            <div class="news_image" id="image1"></div>
+            <div class="news_image" id="image2"></div>
+            <div class="news_image" id="image3"></div>        
+            <!--<div class="news_image fade_InOut" src="https://retail.newground.com/rss/Xnews/news/1920/2.jpg">-->
+        </div>
+   </div>
+
+</body>
+</html>
