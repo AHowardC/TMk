@@ -83,7 +83,7 @@ p {
 }
 .headline_group {
 	position: absolute;	
-	top: 37%;	/*40%*/
+	top: 15%;	/*37%*/
 	/* vertical-align: middle; */
 	left: 55%;
 	/* height: 100%; */
@@ -93,12 +93,12 @@ p {
 	/* flex-direction: column; */
 	align-items: center; /*for the align vertical*/
 	padding: 0px;
-	font-size: 3.0em; /*2.7*/
-	line-height:130%;
+	font-size: 3.2em; /*2.7*/
+	line-height:170%;
 	font-family: 'Lato-Regular', Helvetica;
 	z-index: 10;
 	visibility: hidden;
-	
+
 }
 .logo {
 	height: 30px;
